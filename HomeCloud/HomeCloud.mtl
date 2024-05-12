@@ -1,0 +1,15 @@
+newmtl Medusa
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Medusa 1
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Medusa 2
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl Medusa 3
+Kd 0.937 0.937 0.937
+d 1.000
+newmtl DEFAULT
+Kd 0.579 0.579 0.579
+d 1.000

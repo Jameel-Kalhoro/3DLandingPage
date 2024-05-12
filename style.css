@@ -1,0 +1,114 @@
+body{
+    background-color: skyblue;
+}
+#canvas-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#welcome{
+    font-size: 300%;
+    background-color: skyblue;
+    border: 0px;
+    padding: 0px;
+    margin-left: 37%;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: #f3f4fa;
+    text-shadow: 4px 4px 8px black; 
+}
+
+#home{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    height: 50px;
+    width: 80px;
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(29, 26, 26);
+}
+
+#home:hover{
+    height: 55px;
+    width: 85px;
+}
+
+#aboutus{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    height: 50px;
+    width: 80px;
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(29, 26, 26);
+}
+#aboutus:hover{
+    height: 55px;
+    width: 85px;
+}
+
+#contactus{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    height: 50px;
+    width: 80px;
+    z-index: 1;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: larger;
+    color: rgb(29, 26, 26);
+}
+
+#contactus:hover{
+    height: 55px;
+    width: 85px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #welcome{
+        margin-left: 30%;
+    }    
+}
+
+@media only screen and (max-width: 780px) {
+    #welcome{
+        margin-left: 20%;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    #welcome{
+        margin-left: 10%;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    #welcome{
+        margin-left: 0%;
+    }    
+}
+
+@media only screen and (max-width: 410px) {
+    #welcome{
+        font-size: 270%;
+    }    
+}
+
+@media only screen and (max-width: 365px) {
+    #welcome{
+        font-size: 250%;
+    }    
+}
